@@ -1,0 +1,98 @@
+[
+  {
+    "indicator": "185.220.101.45",
+    "type": "ip",
+    "verdict": "malicious",
+    "confidence": 90,
+    "tags": [
+      "phishing",
+      "credential-harvesting"
+    ],
+    "first_seen": "2026-09-20",
+    "description": "Hosts O365 credential-phishing kits; linked to m1crosoft-secure.com."
+  },
+  {
+    "indicator": "m1crosoft-secure.com",
+    "type": "domain",
+    "verdict": "malicious",
+    "confidence": 95,
+    "tags": [
+      "phishing",
+      "typosquat"
+    ],
+    "first_seen": "2026-09-25",
+    "description": "Typosquat of microsoft.com registered 3 days before campaign."
+  },
+  {
+    "indicator": "45.137.21.9",
+    "type": "ip",
+    "verdict": "malicious",
+    "confidence": 80,
+    "tags": [
+      "vps",
+      "mfa-fatigue",
+      "initial-access"
+    ],
+    "first_seen": "2026-08-14",
+    "description": "Bulletproof VPS seen in MFA-fatigue attacks against VPN gateways."
+  },
+  {
+    "indicator": "103.75.190.12",
+    "type": "ip",
+    "verdict": "malicious",
+    "confidence": 85,
+    "tags": [
+      "exfiltration",
+      "rclone"
+    ],
+    "first_seen": "2026-07-02",
+    "description": "Cloud storage endpoint used by extortion groups for data theft."
+  },
+  {
+    "indicator": "storage.fastsync-cloud.net",
+    "type": "domain",
+    "verdict": "malicious",
+    "confidence": 85,
+    "tags": [
+      "exfiltration"
+    ],
+    "first_seen": "2026-07-02",
+    "description": "Resolves to 103.75.190.12; rclone-compatible storage backend."
+  },
+  {
+    "indicator": "9c3e6d1f2b7a4e8c5d0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+    "type": "sha256",
+    "verdict": "suspicious",
+    "confidence": 70,
+    "tags": [
+      "rclone",
+      "dual-use"
+    ],
+    "first_seen": "2026-05-11",
+    "description": "rclone v1.66 binary; legitimate tool frequently abused for exfiltration."
+  },
+  {
+    "indicator": "198.51.100.77",
+    "type": "ip",
+    "verdict": "suspicious",
+    "confidence": 60,
+    "tags": [
+      "scanner",
+      "ssh-bruteforce"
+    ],
+    "first_seen": "2026-01-03",
+    "description": "Mass internet SSH scanner; opportunistic, not targeted."
+  },
+  {
+    "indicator": "106.51.77.14",
+    "type": "ip",
+    "verdict": "benign",
+    "confidence": 90,
+    "tags": [
+      "isp",
+      "residential"
+    ],
+    "first_seen": "2024-02-10",
+    "description": "ACT Fibernet residential/hotel range, Bengaluru, IN."
+  }
+]

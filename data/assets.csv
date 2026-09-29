@@ -1,0 +1,14 @@
+hostname,ip,type,os,owner,criticality,zone
+WS-FIN-023,10.10.2.23,workstation,Windows 11,jdoe,medium,corp
+WS-FIN-001,10.10.2.1,workstation,Windows 11,kpatel,medium,corp
+WS-IT-001,10.10.1.1,workstation,Windows 11,lwong,high,corp
+WS-IT-002,10.10.1.2,workstation,Windows 11,asmith,high,corp
+WS-ENG-001,10.10.3.1,workstation,Ubuntu 24.04,rgupta,medium,corp
+WS-ENG-011,10.10.3.11,workstation,Ubuntu 24.04,mchen,medium,corp
+WS-HR-004,10.10.4.4,workstation,Windows 11,priya.k,medium,corp
+WS-SAL-007,10.10.6.7,workstation,macOS 15,rlopez,low,corp
+FS-FIN-01,10.10.5.10,file_server,Windows Server 2022,kpatel,critical,servers
+DC-01,10.10.0.5,domain_controller,Windows Server 2022,lwong,critical,servers
+BKP-01,10.10.0.20,backup_server,Ubuntu 22.04,lwong,high,servers
+VPN-GW-01,203.0.113.10,vpn_gateway,FortiOS 7.4,lwong,critical,dmz
+WEB-01,203.0.113.25,web_server,Ubuntu 24.04,rgupta,high,dmz

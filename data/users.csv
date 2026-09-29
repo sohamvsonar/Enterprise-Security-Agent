@@ -1,0 +1,10 @@
+username,full_name,department,title,manager,usual_location,workstation,privileged,account_type,notes
+jdoe,John Doe,Finance,Senior Financial Analyst,kpatel,"Mumbai, IN",WS-FIN-023,False,human,
+kpatel,Kavya Patel,Finance,Finance Director,ceo,"Mumbai, IN",WS-FIN-001,False,human,
+asmith,Alex Smith,IT,Systems Administrator,lwong,"Mumbai, IN",WS-IT-002,True,human,Approved business travel to Bengaluru 2026-09-27 to 2026-09-30 (TRV-5521)
+lwong,Lin Wong,IT,IT Manager,ceo,"Mumbai, IN",WS-IT-001,True,human,
+mchen,Mei Chen,Engineering,Software Engineer,rgupta,"Pune, IN",WS-ENG-011,False,human,
+rgupta,Rohan Gupta,Engineering,Engineering Manager,ceo,"Pune, IN",WS-ENG-001,False,human,
+priya.k,Priya Kulkarni,HR,HR Business Partner,ceo,"Mumbai, IN",WS-HR-004,False,human,
+rlopez,Rosa Lopez,Sales,Account Executive,ceo,"Mumbai, IN",WS-SAL-007,False,human,
+svc_backup,Backup Service,IT,Service Account,lwong,Datacenter,BKP-01,True,service,Runs nightly backup 01:00-03:00 UTC to BKP-01

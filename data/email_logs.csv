@@ -1,0 +1,37 @@
+timestamp,message_id,sender,recipient,subject,url,attachment,spam_verdict,delivery_action,link_clicked
+2026-09-28T02:48:00Z,MSG-00033,it-support@m1crosoft-secure.com,jdoe@acmecorp.com,Action Required: Your password expires today,https://m1crosoft-secure.com/o365/login?session=8f2a,,clean,delivered,True
+2026-09-28T02:48:00Z,MSG-00034,it-support@m1crosoft-secure.com,kpatel@acmecorp.com,Action Required: Your password expires today,https://m1crosoft-secure.com/o365/login?session=8f2a,,clean,delivered,False
+2026-09-28T02:48:00Z,MSG-00035,it-support@m1crosoft-secure.com,priya.k@acmecorp.com,Action Required: Your password expires today,https://m1crosoft-secure.com/o365/login?session=8f2a,,clean,delivered,False
+2026-09-28T02:48:00Z,MSG-00036,it-support@m1crosoft-secure.com,rlopez@acmecorp.com,Action Required: Your password expires today,https://m1crosoft-secure.com/o365/login?session=8f2a,,clean,delivered,False
+2026-09-28T03:01:46Z,MSG-00025,asmith@acmecorp.com,lwong@acmecorp.com,Updated leave policy,,,clean,delivered,False
+2026-09-28T03:17:31Z,MSG-00012,lwong@acmecorp.com,priya.k@acmecorp.com,Invoice #88213 approved,,,clean,delivered,False
+2026-09-28T03:23:43Z,MSG-00001,mchen@acmecorp.com,priya.k@acmecorp.com,Re: laptop refresh,,,clean,delivered,False
+2026-09-28T03:25:43Z,MSG-00019,kpatel@acmecorp.com,priya.k@acmecorp.com,Team lunch Friday,,,clean,delivered,False
+2026-09-28T03:36:08Z,MSG-00013,priya.k@acmecorp.com,asmith@acmecorp.com,Customer follow-up,,,clean,delivered,False
+2026-09-28T03:43:02Z,MSG-00002,kpatel@acmecorp.com,lwong@acmecorp.com,Updated leave policy,,,clean,delivered,False
+2026-09-28T04:05:00Z,MSG-00031,billing@vendor-supplies.in,kpatel@acmecorp.com,Invoice for September,,Invoice_Sep.pdf,clean,delivered,False
+2026-09-28T04:27:22Z,MSG-00020,asmith@acmecorp.com,rgupta@acmecorp.com,Weekly sync notes,,,clean,delivered,False
+2026-09-28T04:45:00Z,MSG-00003,rgupta@acmecorp.com,mchen@acmecorp.com,Team lunch Friday,,,clean,delivered,False
+2026-09-28T05:00:00Z,MSG-00032,promo@cheap-deals.biz,rlopez@acmecorp.com,You WON a gift card!!!,http://cheap-deals.biz/claim,,spam,quarantined,False
+2026-09-28T05:04:27Z,MSG-00004,jdoe@acmecorp.com,rgupta@acmecorp.com,Updated leave policy,,,clean,delivered,False
+2026-09-28T05:07:08Z,MSG-00005,kpatel@acmecorp.com,priya.k@acmecorp.com,Team lunch Friday,,,clean,delivered,False
+2026-09-28T05:14:41Z,MSG-00016,mchen@acmecorp.com,kpatel@acmecorp.com,Updated leave policy,,,clean,delivered,False
+2026-09-28T05:40:17Z,MSG-00024,rgupta@acmecorp.com,jdoe@acmecorp.com,Weekly sync notes,,,clean,delivered,False
+2026-09-28T05:57:01Z,MSG-00029,jdoe@acmecorp.com,mchen@acmecorp.com,Re: laptop refresh,,,clean,delivered,False
+2026-09-28T05:57:06Z,MSG-00011,lwong@acmecorp.com,rgupta@acmecorp.com,Q3 forecast review,,,clean,delivered,False
+2026-09-28T06:14:01Z,MSG-00007,asmith@acmecorp.com,rlopez@acmecorp.com,Customer follow-up,,,clean,delivered,False
+2026-09-28T06:27:13Z,MSG-00010,asmith@acmecorp.com,lwong@acmecorp.com,Updated leave policy,,,clean,delivered,False
+2026-09-28T06:28:24Z,MSG-00021,kpatel@acmecorp.com,lwong@acmecorp.com,Re: laptop refresh,,,clean,delivered,False
+2026-09-28T06:38:07Z,MSG-00017,priya.k@acmecorp.com,mchen@acmecorp.com,Invoice #88213 approved,,,clean,delivered,False
+2026-09-28T07:07:37Z,MSG-00006,priya.k@acmecorp.com,asmith@acmecorp.com,Invoice #88213 approved,,,clean,delivered,False
+2026-09-28T07:10:35Z,MSG-00015,priya.k@acmecorp.com,rgupta@acmecorp.com,Re: sprint planning,,,clean,delivered,False
+2026-09-28T07:38:16Z,MSG-00018,lwong@acmecorp.com,kpatel@acmecorp.com,Re: laptop refresh,,,clean,delivered,False
+2026-09-28T08:48:57Z,MSG-00027,mchen@acmecorp.com,priya.k@acmecorp.com,Customer follow-up,,,clean,delivered,False
+2026-09-28T08:57:57Z,MSG-00014,rgupta@acmecorp.com,kpatel@acmecorp.com,Re: laptop refresh,,,clean,delivered,False
+2026-09-28T09:38:12Z,MSG-00009,asmith@acmecorp.com,mchen@acmecorp.com,Customer follow-up,,,clean,delivered,False
+2026-09-28T09:56:25Z,MSG-00028,asmith@acmecorp.com,rlopez@acmecorp.com,Re: sprint planning,,,clean,delivered,False
+2026-09-28T10:50:06Z,MSG-00022,mchen@acmecorp.com,rlopez@acmecorp.com,Q3 forecast review,,,clean,delivered,False
+2026-09-28T11:03:12Z,MSG-00023,kpatel@acmecorp.com,rgupta@acmecorp.com,Updated leave policy,,,clean,delivered,False
+2026-09-28T11:18:24Z,MSG-00026,asmith@acmecorp.com,mchen@acmecorp.com,Team lunch Friday,,,clean,delivered,False
+2026-09-28T11:27:24Z,MSG-00030,jdoe@acmecorp.com,rlopez@acmecorp.com,Invoice #88213 approved,,,clean,delivered,False
+2026-09-28T11:31:32Z,MSG-00008,mchen@acmecorp.com,rgupta@acmecorp.com,Team lunch Friday,,,clean,delivered,False

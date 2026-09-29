@@ -1,0 +1,85 @@
+timestamp,event_id,username,source_ip,source_geo,target_system,auth_method,result,failure_reason
+2026-09-28T01:00:03Z,AUTH-00035,svc_backup,10.10.0.20,Datacenter,FS-FIN-01,kerberos,success,
+2026-09-28T01:00:09Z,AUTH-00036,svc_backup,10.10.0.20,Datacenter,DC-01,kerberos,success,
+2026-09-28T02:30:00Z,AUTH-00041,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:30:07Z,AUTH-00042,root,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:30:14Z,AUTH-00043,administrator,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:30:21Z,AUTH-00044,test,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:30:28Z,AUTH-00045,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:30:35Z,AUTH-00046,jenkins,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:30:42Z,AUTH-00047,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:30:49Z,AUTH-00048,rgupta,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,bad_password
+2026-09-28T02:30:56Z,AUTH-00049,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:31:03Z,AUTH-00050,deploy,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:31:10Z,AUTH-00051,root,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:31:17Z,AUTH-00052,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:31:24Z,AUTH-00053,ubuntu,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:31:31Z,AUTH-00054,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:31:38Z,AUTH-00055,backup,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:31:45Z,AUTH-00056,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:31:52Z,AUTH-00057,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:31:59Z,AUTH-00058,root,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:32:06Z,AUTH-00059,administrator,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:32:13Z,AUTH-00060,test,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:32:20Z,AUTH-00061,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:32:27Z,AUTH-00062,jenkins,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:32:34Z,AUTH-00063,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:32:41Z,AUTH-00064,rgupta,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,bad_password
+2026-09-28T02:32:48Z,AUTH-00065,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:32:55Z,AUTH-00066,deploy,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:33:02Z,AUTH-00067,root,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:33:09Z,AUTH-00068,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:33:16Z,AUTH-00069,ubuntu,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:33:23Z,AUTH-00070,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:33:30Z,AUTH-00071,backup,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:33:37Z,AUTH-00072,admin,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,failure,invalid_user
+2026-09-28T02:34:00Z,AUTH-00073,-,198.51.100.77,"Sao Paulo, BR",WEB-01,ssh_password,blocked,fail2ban_ban
+2026-09-28T03:13:39Z,AUTH-00002,jdoe,10.10.2.23,"Mumbai, IN",WS-FIN-023,password+mfa,success,
+2026-09-28T03:16:16Z,AUTH-00012,asmith,10.10.1.2,"Mumbai, IN",WS-IT-002,password+mfa,success,
+2026-09-28T03:17:21Z,AUTH-00011,asmith,10.10.1.2,"Mumbai, IN",WS-IT-002,password+mfa,success,
+2026-09-28T03:20:00Z,AUTH-00074,jdoe,45.137.21.9,"Amsterdam, NL",O365,password,success,
+2026-09-28T03:30:00Z,AUTH-00075,jdoe,45.137.21.9,"Amsterdam, NL",VPN-GW-01,password+mfa_push,failure,mfa_denied
+2026-09-28T03:30:40Z,AUTH-00076,jdoe,45.137.21.9,"Amsterdam, NL",VPN-GW-01,password+mfa_push,failure,mfa_denied
+2026-09-28T03:31:20Z,AUTH-00077,jdoe,45.137.21.9,"Amsterdam, NL",VPN-GW-01,password+mfa_push,failure,mfa_denied
+2026-09-28T03:32:00Z,AUTH-00078,jdoe,45.137.21.9,"Amsterdam, NL",VPN-GW-01,password+mfa_push,failure,mfa_denied
+2026-09-28T03:32:40Z,AUTH-00079,jdoe,45.137.21.9,"Amsterdam, NL",VPN-GW-01,password+mfa_push,failure,mfa_denied
+2026-09-28T03:33:20Z,AUTH-00080,jdoe,45.137.21.9,"Amsterdam, NL",VPN-GW-01,password+mfa_push,failure,mfa_denied
+2026-09-28T03:35:10Z,AUTH-00081,jdoe,45.137.21.9,"Amsterdam, NL",VPN-GW-01,password+mfa_push,success,mfa_approved
+2026-09-28T03:40:00Z,AUTH-00082,jdoe,10.20.0.57,VPN,FS-FIN-01,ntlm,success,
+2026-09-28T03:41:00Z,AUTH-00083,jdoe,10.20.0.57,VPN,DC-01,ldap,success,
+2026-09-28T03:44:00Z,AUTH-00084,jdoe,10.20.0.57,VPN,FS-FIN-01,rdp,success,
+2026-09-28T03:50:39Z,AUTH-00031,rlopez,10.10.6.7,"Mumbai, IN",WS-SAL-007,password+mfa,success,
+2026-09-28T03:51:10Z,AUTH-00013,asmith,10.10.1.2,"Mumbai, IN",WS-IT-002,password+mfa,success,
+2026-09-28T03:52:49Z,AUTH-00033,rlopez,10.10.6.7,"Mumbai, IN",O365,sso,success,
+2026-09-28T03:55:00Z,AUTH-00037,jdoe,10.10.2.23,"Mumbai, IN",WS-FIN-023,password+mfa,success,
+2026-09-28T03:57:00Z,AUTH-00038,jdoe,10.10.2.23,"Mumbai, IN",FS-FIN-01,kerberos,success,
+2026-09-28T04:00:48Z,AUTH-00001,jdoe,10.10.2.23,"Mumbai, IN",WS-FIN-023,password+mfa,success,
+2026-09-28T04:10:00Z,AUTH-00039,asmith,106.51.77.14,"Bengaluru, IN",VPN-GW-01,password+mfa,success,
+2026-09-28T04:12:00Z,AUTH-00040,asmith,10.20.0.31,VPN,WS-IT-002,rdp,success,
+2026-09-28T04:24:54Z,AUTH-00028,priya.k,10.10.4.4,"Mumbai, IN",WS-HR-004,password+mfa,success,
+2026-09-28T04:27:11Z,AUTH-00026,rgupta,10.10.3.1,"Pune, IN",O365,sso,success,
+2026-09-28T04:48:35Z,AUTH-00017,lwong,10.10.1.1,"Mumbai, IN",WS-IT-001,password+mfa,success,
+2026-09-28T04:57:35Z,AUTH-00029,priya.k,10.10.4.4,"Mumbai, IN",WS-HR-004,password+mfa,success,
+2026-09-28T04:59:24Z,AUTH-00014,asmith,10.10.1.2,"Mumbai, IN",O365,sso,success,
+2026-09-28T05:00:23Z,AUTH-00020,mchen,10.10.3.11,"Pune, IN",WS-ENG-011,password+mfa,success,
+2026-09-28T05:13:44Z,AUTH-00005,jdoe,10.10.2.23,"Mumbai, IN",O365,sso,success,
+2026-09-28T05:30:12Z,AUTH-00004,jdoe,10.10.2.23,"Mumbai, IN",WS-FIN-023,password+mfa,success,
+2026-09-28T05:31:45Z,AUTH-00027,priya.k,10.10.4.4,"Mumbai, IN",WS-HR-004,password+mfa,success,
+2026-09-28T05:31:55Z,AUTH-00023,mchen,10.10.3.11,"Pune, IN",O365,sso,success,
+2026-09-28T06:07:50Z,AUTH-00034,rlopez,10.10.6.7,"Mumbai, IN",WS-SAL-007,password,failure,bad_password
+2026-09-28T06:27:29Z,AUTH-00032,rlopez,10.10.6.7,"Mumbai, IN",WS-SAL-007,password+mfa,success,
+2026-09-28T06:49:06Z,AUTH-00019,mchen,10.10.3.11,"Pune, IN",WS-ENG-011,password+mfa,success,
+2026-09-28T06:50:25Z,AUTH-00010,asmith,10.10.1.2,"Mumbai, IN",WS-IT-002,password+mfa,success,
+2026-09-28T07:05:19Z,AUTH-00021,mchen,10.10.3.11,"Pune, IN",WS-ENG-011,password+mfa,success,
+2026-09-28T08:06:30Z,AUTH-00016,lwong,10.10.1.1,"Mumbai, IN",WS-IT-001,password+mfa,success,
+2026-09-28T08:21:49Z,AUTH-00022,mchen,10.10.3.11,"Pune, IN",WS-ENG-011,password+mfa,success,
+2026-09-28T08:28:46Z,AUTH-00015,asmith,10.10.1.2,"Mumbai, IN",WS-IT-002,password,failure,bad_password
+2026-09-28T09:09:34Z,AUTH-00007,kpatel,10.10.2.1,"Mumbai, IN",WS-FIN-001,password+mfa,success,
+2026-09-28T09:31:02Z,AUTH-00018,lwong,10.10.1.1,"Mumbai, IN",O365,sso,success,
+2026-09-28T09:42:12Z,AUTH-00006,jdoe,10.10.2.23,"Mumbai, IN",WS-FIN-023,password,failure,bad_password
+2026-09-28T09:44:30Z,AUTH-00008,kpatel,10.10.2.1,"Mumbai, IN",WS-FIN-001,password+mfa,success,
+2026-09-28T09:44:59Z,AUTH-00003,jdoe,10.10.2.23,"Mumbai, IN",WS-FIN-023,password+mfa,success,
+2026-09-28T09:54:24Z,AUTH-00024,rgupta,10.10.3.1,"Pune, IN",WS-ENG-001,password+mfa,success,
+2026-09-28T10:20:05Z,AUTH-00025,rgupta,10.10.3.1,"Pune, IN",WS-ENG-001,password+mfa,success,
+2026-09-28T11:07:14Z,AUTH-00009,kpatel,10.10.2.1,"Mumbai, IN",O365,sso,success,
+2026-09-28T11:42:45Z,AUTH-00030,priya.k,10.10.4.4,"Mumbai, IN",O365,sso,success,

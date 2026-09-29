@@ -1,0 +1,9 @@
+timestamp,alert_id,title,severity,entity,source,status,description
+2026-09-28T02:34:00Z,ALRT-1001,SSH brute force against WEB-01,medium,198.51.100.77,SIEM,open,32 failed SSH logins in 4 minutes from 198.51.100.77; source banned by fail2ban.
+2026-09-28T03:05:00Z,ALRT-1002,User reported phishing email,medium,priya.k,PhishReport,open,priya.k reported 'Action Required: Your password expires today' from it-support@m1crosoft-secure.com.
+2026-09-28T03:36:00Z,ALRT-1003,MFA push fatigue,high,jdoe,IdP,open,6 denied MFA pushes followed by an approval for jdoe within 6 minutes.
+2026-09-28T03:36:00Z,ALRT-1004,Impossible travel,high,jdoe,IdP,open,"jdoe authenticated from Amsterdam, NL while active in Mumbai, IN."
+2026-09-28T04:05:00Z,ALRT-1006,Renamed rclone execution,critical,FS-FIN-01,EDR,open,svchost_update.exe (rclone) copying archive to external cloud storage.
+2026-09-28T04:11:00Z,ALRT-1005,Login from new location,low,asmith,IdP,open,"asmith VPN login from Bengaluru, IN (first seen)."
+2026-09-28T04:30:00Z,ALRT-1007,Large outbound data transfer,critical,FS-FIN-01,NDR,open,~4 GB sent from FS-FIN-01 to 103.75.190.12 (storage.fastsync-cloud.net) in 25 minutes.
+2026-09-28T06:13:00Z,ALRT-1008,Potentially unwanted application,low,WS-ENG-011,EDR,open,Coupon helper browser extension installed by mchen.
